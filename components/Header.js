@@ -7,11 +7,12 @@ import {
   PaperAirplaneIcon,
   MenuIcon,
 } from "@heroicons/react/outline";
+import { HomeIcon } from "@heroicons/react/solid";
 
 function Header() {
   return (
     <div>
-      <div className="flex justify-between max-w-6xl">
+      <div className="flex justify-between max-w-6xl mx-5 lgk:mx-auto">
         {/* Left */}
         <div className="relative w-24 hidden lg:inline-grid cursor-pointer">
           <Image
@@ -45,6 +46,25 @@ function Header() {
         </div>
 
         {/* Right */}
+        <div className="flex items-center justify-end space-x-4">
+          <HomeIcon className="navBtn" />
+          <MenuIcon className="h-6 md:hidden cursor-pointer" />
+          <div className="relative navBtn">
+            <PaperAirplaneIcon className="navBtn" />
+            <div className="absolute -top-1 -right-1 text-xs w-5 h-5 bg-red-500 rounded-full flex items-center justify-center animate-pulse text-white">
+              3
+            </div>
+          </div>
+          <PlusCircleIcon className="navBtn" />
+          <UserGroupIcon className="navBtn" />
+          <HeartIcon className="navBtn" />
+
+          <img
+            src="https://links.papareact.com/3ke"
+            alt="profile pic"
+            className="h-10 rounded-full cursor-pointer"
+          />
+        </div>
       </div>
     </div>
   );
