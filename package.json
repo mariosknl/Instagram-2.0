@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@heroicons/react": "2.0.11",
+    "@heroicons/react": "2.0.12",
     "@tailwindcss/forms": "0.5.3",
     "faker": "6.6.6",
     "firebase": "9.10.0",
