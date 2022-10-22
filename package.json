@@ -9,7 +9,7 @@
     "@heroicons/react": "2.0.12",
     "@tailwindcss/forms": "0.5.3",
     "faker": "6.6.6",
-    "firebase": "9.10.0",
+    "firebase": "9.12.1",
     "next": "latest",
     "next-auth": "4.14.0",
     "react": "18.2.0",
