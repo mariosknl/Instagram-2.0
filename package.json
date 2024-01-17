@@ -16,7 +16,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.16",
+    "autoprefixer": "10.4.17",
     "postcss": "8.4.33",
     "tailwind-scrollbar": "3.0.5",
     "tailwind-scrollbar-hide": "1.1.7",
