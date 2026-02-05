@@ -8,7 +8,7 @@
   "dependencies": {
     "@heroicons/react": "2.2.0",
     "@tailwindcss/forms": "0.5.11",
-    "firebase": "12.8.0",
+    "firebase": "12.9.0",
     "@faker-js/faker": "10.2.0",
     "next": "latest",
     "next-auth": "4.24.13",
